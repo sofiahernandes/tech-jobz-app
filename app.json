@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "scheme": "techjobzapp",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "techjobz",
+    "newArchEnabled": true,
+    "slug": "techjobz"
+  }
+}
