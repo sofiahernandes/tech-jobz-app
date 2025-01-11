@@ -28,8 +28,8 @@ cd techjobz
 pnpm i
 ```
 
-### Set up the .env file with your API key (which you can obtain by 
-signing up on the RapidAPI website):
+### Set up the .env file with your API key 
+(which you can obtain by signing up on the RapidAPI website):
 ```jsx
 RAPID_API_KEY=""
 ```
