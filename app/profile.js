@@ -21,9 +21,9 @@ const Profile = () => {
     const [experience, setExperience] = useState("");
 
     const [request, response, promptAsync] = AuthSession.useAuthRequest({
-        androidClientId: "1063607270206-0b17ccoulu74e97krcb4pqgt10ljrpi1.apps.googleusercontent.com",
-        iosClientId: "1063607270206-0b17ccoulu74e97krcb4pqgt10ljrpi1.apps.googleusercontent.com",
-        webClientId: "1063607270206-3del2e031b0c1u63bkufgeefhhg9q49u.apps.googleusercontent.com",
+        androidClientId: `${process.env.ANDROID_CLIENT_ID}`,
+        iosClientId: `${process.env.IOS_CLIENT_ID}`,
+        webClientId: `${process.env.WEB_CLIENT_ID}`,
     });
   
     useEffect(() => {
