@@ -15,10 +15,11 @@
 - Like/save job functionallity
 - MUI Dropdown Menu for additional navigation
 
+
 ## RUNNING THE APP LOCALLY
 ### Clone the repository:
 ```jsx
-git clone https://github.com/sofiahernandes/mynotion.git
+git clone https://github.com/sofiahernandes/techjoz.git
 ```
 
 ### Install all packages by running:
