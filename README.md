@@ -1,5 +1,5 @@
 ## TECH JOBZ APP
-## Notion Clone app built using:
+## Tech Jobs Search app built using:
 - Node.js
 - React Native
 - Axios
