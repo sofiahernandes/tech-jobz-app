@@ -14,6 +14,11 @@ import {
 const Home = () => {
   const router = useRouter();
   const [searchTerm, setSearchTerm] = useState("");
+  const [visible, setVisible] = useState(false);
+
+  const toggleMenu = () => {
+    setVisible(!visible);
+  }
 
   const handleShowAll = (item) => {
     router.push(`/search/${item}`);
@@ -26,7 +31,10 @@ const Home = () => {
           headerStyle: { backgroundColor: COLORS.lightWhite },
           headerShadowVisible: false,
           headerLeft: () => (
-            <Menu />
+            <Menu 
+              toggleMenu={toggleMenu}
+              visible={visible}
+            />
           ),
           headerRight: () => (
             <HeaderBtn 

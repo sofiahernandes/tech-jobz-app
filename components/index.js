@@ -1,6 +1,6 @@
 // header
 import HeaderBtn from "./common/header/HeaderBtn";
-import Menu from "./common/header/Menu";
+import { default as Menu } from "./common/header/MenuBtn";
 
 // home screen
 import Welcome from "./home/welcome/Welcome";

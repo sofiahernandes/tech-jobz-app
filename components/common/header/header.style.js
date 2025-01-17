@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     top: 0, 
     left: 0, 
     position: "relative"
-  }),
+  })
 });
 
 export default styles;

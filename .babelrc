@@ -7,6 +7,8 @@
       "whitelist": null,
       "safe": false,
       "allowUndefined": true
-    }]
+    },
+    "module:metro-react-native-babel-preset"
+    ]
   ]
 }

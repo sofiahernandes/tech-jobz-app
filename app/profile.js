@@ -4,6 +4,11 @@ import * as WebBrowser from "expo-web-browser";
 import * as AuthSession from 'expo-auth-session';
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Stack } from "expo-router";
+import {
+  ANDROID_CLIENT_ID,
+  IOS_CLIENT_ID,
+  WEB_CLIENT_ID
+} from "@env";
 
 import { icons, images, COLORS } from "../constants";
 import styles from "../styles/profile.style";
@@ -21,9 +26,9 @@ const Profile = () => {
     const [experience, setExperience] = useState("");
 
     const [request, response, promptAsync] = AuthSession.useAuthRequest({
-        androidClientId: `${process.env.ANDROID_CLIENT_ID}`,
-        iosClientId: `${process.env.IOS_CLIENT_ID}`,
-        webClientId: `${process.env.WEB_CLIENT_ID}`,
+        androidClientId: ANDROID_CLIENT_ID,
+        iosClientId: IOS_CLIENT_ID,
+        webClientId: WEB_CLIENT_ID,
     });
   
     useEffect(() => {
