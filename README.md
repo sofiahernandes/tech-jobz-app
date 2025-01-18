@@ -28,10 +28,12 @@ cd techjobz
 pnpm i
 ```
 
-### Set up the .env file with your API key 
-(which you can obtain by signing up on the RapidAPI website):
+### Set up the .env file with your API key (which you can obtain by signing up on the RapidAPI website) and your sign-in with google keys:
 ```jsx
 RAPID_API_KEY=""
+ANDROID_CLIENT_ID=""
+IOS_CLIENT_ID=""
+WEB_CLIENT_ID=""
 ```
 
 ## Check out the working app through your phone
@@ -39,4 +41,4 @@ RAPID_API_KEY=""
 ```jsx
 npx expo start
 ```
-Then scan the QR Code acording to the instructions on the screen
+Then scan the QR Code acording to the instructions on the terminal
